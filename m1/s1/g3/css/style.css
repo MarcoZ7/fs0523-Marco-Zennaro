@@ -1,0 +1,36 @@
+.sottotitolo{
+    text-align: center;
+}
+
+.centro{
+ width: 800px;
+ margin-inline: auto;
+}
+
+#img{
+    text-align: center;
+}
+
+#rosso{
+    color: red;
+    margin: 0;
+}
+
+#sottol{
+   text-decoration: underline;
+   margin: 0;
+   color: blue;
+
+}
+
+.fine{
+    color: blue;
+    text-decoration: underline;
+}
+
+hr
+{
+background: yellow;
+border: 1px;
+height: 1px;
+}
