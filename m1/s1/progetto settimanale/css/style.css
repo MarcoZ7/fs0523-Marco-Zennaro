@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+/*head*/
+
+h1,h2{
+    color:  #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+h4{
+    font-size:0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h6{
+    font-size: 0.5rem;
+}
+
+
+#header{
+background-color: black;
+width: 100%;
+}
+
+button{
+    background-color: #f04c2f;
+    color: white;
+    text-align: center;
+    padding: 3px 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+/* Main*/
+
+.pc{
+    border-radius: 100%;
+    width:50%;
+    
+}
+
+
+.container{
+    background-color: white;
+    padding: 20px;
+    
+}
+
+
+
+.primo{
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(../images/banner.jpg);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+
+
+
+/*Aside  */
+
+
+.centro{
+    display: block;
+    background-color:#e52f10;
+    color: white;
+    text-align: center; 
+    padding: 40px;
+    width: 100%;
+}
+
+
+
+
+/* footer*/
+
+.contact{
+    color: white;
+}
+
+
+footer{
+    background-color: #28a1c6;
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+
+}
+.border{
+  
+   border: 1px solid white  ;
+   border-left: none;
+   border-bottom: none;
+   border-right: none;
+}
+
