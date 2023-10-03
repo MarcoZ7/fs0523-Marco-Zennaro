@@ -11,38 +11,30 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/*
-
-/*number  =  si usa per scrivere un valore numerico
-string  =  'si usa per inserire del testo'
-boolean  = si usa per inserire solo due tipi di valori che sono true or false che servono per determinare una scelta 
-array    = può contenere diversi valori contemporaneamente
-object  =   */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
-
-/* let nome = 'Marco';  */
+ let nome = "Marco"; 
 
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* 
+
  let a = 12;
  let b = 20;
  let sol = (a+b);
  console.log(sol);
- */
+
 
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* let x = 12; */
+ let x = 12; 
 console.log(x);
 
 /* ESERCIZIO 5
@@ -50,7 +42,7 @@ console.log(x);
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* 
+
 const PERSONA = {
             nome : 'Marco',
             cognome : 'Zennaro'
@@ -59,18 +51,18 @@ PERSONA = {
   nome : 'Zennaro';
 }
          
-   consoloe.log(PERSONA));
-} */
+   consoloe.log(PERSONA);
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/*  let a = 4;
-    let x = 12;
-   let c = (a-x);
+ let c = 4;
+    let p = 12;
+   let z = (a-x);
    console.log(c);
-   */
+   
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -78,12 +70,9 @@ PERSONA = {
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* let name1 = 'john';
+let name1 = 'john';
    let name2 = 'John';
    console.log(name1 != name2);
-
-   let name1 = 'john';
-   let name2 = 'john';
    console.log(name1 == name2);
 
-*/
+ 
