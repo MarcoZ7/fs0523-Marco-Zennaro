@@ -129,12 +129,21 @@ if(j1 >= j2 && j3 >= j1)
     {
    console.log(j2, j1, j3 )   
     }
-    else{
-      if(j2 >= j1){
-        console.log(j2, j1, j3)
+  
+    if (j1 >= j3 && j3 >= j2) {
+      console.log(j1, j3, j2);
+    }
+    else if (j1 >= j2 && j2 >= j3) {
+      console.log(j1, j2, j3);
+    }
+    else {
+      if (j1 >= j3 && j2 >= j1) {
+        console.log(j2, j1, j3);
       }
     }
+    
   }
+
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
