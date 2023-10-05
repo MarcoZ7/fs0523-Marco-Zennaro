@@ -111,9 +111,11 @@ let characters = [];
   Dovrai accedere alla proprietà "name" di ogni oggetto in esso contenuto, e inserirla nell'array "characters" creato precedentemente.
   Come risultato dovresti ottenere qualcosa di simile: ["Luke Skywalker", "C-3PO", "R2-D2", etc..]
 */
-for (let i = 0; i < starWarsCharacters.length; i++) {
-  characters.push(starWarsCharacters.name)
 
+for (let i = 0; i < starWarsCharacters.length; i++) {
+
+  characters.push( starWarsCharacters.name)
+console.log(characters);
 }
 
 /* ESERCIZIO 3
@@ -121,6 +123,12 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 */
 let femaleCharacters = [];
 
+for (let i = 0; i < starWarsCharacters.length; i++) {
+
+  let starWarsCharacters =
+if (femaleCharacters.push(starWarsCharacters));
+
+}
 /* ESERCIZIO 4
   Crea un oggetto "eyeColor" che abbia le seguenti proprietà: blue, yellow, brown, red, blue-gray.
   Ad ognuna di queste proprietà assegna come valore un array vuoto.
@@ -130,7 +138,7 @@ let eyeColor = {
   yellow: [],
   brown: [],
   red: [],
-  blue_gray: []
+ 'blue-gray': []
 }
 
 /* ESERCIZIO 5
@@ -152,10 +160,11 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
       eyeColor.red.push(starWarsCharacters[i])
       break;
     case 'blue-gray':
-      eyeColor.blue-gray.push(starWarsCharacters[i])
+      eyeColor["blue-gray"].push(starWarsCharacters[i])
       break;
 
     default:
+      console.log('colore non esistente')
       break;
      
   }
@@ -165,7 +174,15 @@ for (let i = 0; i < starWarsCharacters.length; i++) {
 */
 let crewMass;
 let i = 0;
-while ( i < starWarsCharacters.length) {}
+while ( i < starWarsCharacters.length) {
+   starWarsCharacters[x];
+
+  crewMass +=starWarsCharacters .mass
+
+  x++;
+}
+
+console.log(crewMass);
 /* ESERCIZIO 7
   Crea uno if/else statement per rivelare la tipologia di carico, utilizzando la massa totale, di un'ipotetica astronave contenente i personaggi dell'array "starWarsCharacters".
 
