@@ -13,7 +13,7 @@ REGOLE
 const pets = ['dog', 'cat', 'hamster', 'redfish']
 
 for (let i = 0; i <pets.length;i++);{
-  console.log(pets);
+  console.log(pets[i]);
   }
 
 /* ESERCIZIO 2
@@ -68,8 +68,9 @@ console.log(cars);
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
-let carsLength = cars.push(n_porte);
-console.log(cars);
+let auto = {
+  brand: 'Toyota'
+}
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
