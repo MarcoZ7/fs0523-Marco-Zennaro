@@ -1,0 +1,102 @@
+body{
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+h4{
+    font-size: 0.5rem;
+    text-align: center;
+    background-color:#f56600;
+     padding: 20px;
+}
+
+.logo{
+   background-color: #1d1d1d;
+   
+   
+   height: auto;
+
+}
+
+.menu{
+   background-color: #2f6e61;
+   margin: 0px;
+   color: white;
+   padding: 10px;
+}
+
+.gift{
+    background-image: url(../images/bg-image.png);
+    text-align: center;
+    padding: 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.shop{
+    text-align: center;
+    background-color:#f56600; 
+    color: white;
+    margin: 25px;
+    padding: 5px;
+}
+
+image{
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+.image2{
+    max-width: 100%;
+}
+
+
+h2{
+    font-size: 3rem;
+    color: white;
+   padding: 20px;
+}
+
+
+.img1{
+display: inline-block;
+    width: 20%;
+    padding: 20px;
+
+}
+
+.img2{
+    display: inline-block;
+    width: 20%;
+     padding: 20px;
+}
+
+.img3{
+    display: inline-block;
+    width: 20%;
+     padding: 20px;
+}
+
+.img4{
+    display: inline-block;
+    width: 20%;
+     padding: 20px;
+     height: 20%;
+}
+
+.marshall{
+    padding: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+#footer{
+text-align: center;
+background-color: #364759;
+margin: 0px;
+color: white;
+padding: 10px;
+}
