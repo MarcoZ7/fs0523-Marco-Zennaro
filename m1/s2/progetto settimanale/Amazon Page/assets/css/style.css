@@ -62,24 +62,48 @@ h2{
 
 
 .img1{
+<<<<<<< HEAD
     display: inline-block;
     width: 50%;
     padding 20px;
+=======
+    background-image: url(../images/img_1.jpg);
+    display: inline-block;
+    padding: 20px;
+background-size: cover;
+
+>>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
 
 .img2{
+    background-image: url(../images/img_2.jpg);
     display: inline-block;
+<<<<<<< HEAD
     width: 50%;
+=======
+    width: 20%;
+     padding: 20px;
+     background-size: cover;
+>>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
  
 .img3{
+    background-image: url(../images/img_3.jpg);
     display: inline-block;
+<<<<<<< HEAD
     width: 50%;
     
+=======
+    width: 20%;
+     padding: 20px;
+     background-size: cover;
+>>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
 
 .img4{
+    background-image: url(../images/img_4.jpg);
     display: inline-block;
+<<<<<<< HEAD
     width: 50%;
     
      
@@ -89,8 +113,14 @@ h2{
     
     width: 50%;
     display: inline-block;
+=======
+    width: 20%;
+     padding: 20px;
+     
+     background-size: cover;
+>>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
-
+ 
 .marshall{
     padding: 20px;
     width: 20%;
