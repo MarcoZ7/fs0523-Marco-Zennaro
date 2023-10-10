@@ -62,29 +62,33 @@ h2{
 
 
 .img1{
-display: inline-block;
-    width: 20%;
-    padding: 20px;
-
+    display: inline-block;
+    width: 50%;
+    padding 20px;
 }
 
 .img2{
     display: inline-block;
-    width: 20%;
-     padding: 20px;
+    width: 50%;
 }
-
+ 
 .img3{
     display: inline-block;
-    width: 20%;
-     padding: 20px;
+    width: 50%;
+    
 }
 
 .img4{
     display: inline-block;
-    width: 20%;
-     padding: 20px;
-     height: 20%;
+    width: 50%;
+    
+     
+}
+
+.container{
+    
+    width: 50%;
+    display: inline-block;
 }
 
 .marshall{
