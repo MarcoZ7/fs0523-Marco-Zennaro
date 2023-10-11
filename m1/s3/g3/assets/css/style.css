@@ -1,0 +1,25 @@
+
+
+
+.titolo{
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: blue;
+  width: auto;
+  padding: 35px;
+  color: white;
+}
+
+#addBtn{
+  font-size: 2rem;
+}
+
+#elenco{
+font-size: 2rem;
+}
+
+#addEl{
+  font-size: 1.5rem;
+  background-color: red;
+}

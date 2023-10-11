@@ -11,10 +11,7 @@ h4{
 
 .logo{
    background-color: #1d1d1d;
-   
-   
    height: auto;
-
 }
 
 .menu{
@@ -57,68 +54,23 @@ image{
 h2{
     font-size: 3rem;
     color: white;
-   padding: 20px;
-}
-
-
-.img1{
-<<<<<<< HEAD
-    display: inline-block;
-    width: 50%;
-    padding 20px;
-=======
-    background-image: url(../images/img_1.jpg);
-    display: inline-block;
     padding: 20px;
-background-size: cover;
-
->>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
 
-.img2{
-    background-image: url(../images/img_2.jpg);
-    display: inline-block;
-<<<<<<< HEAD
-    width: 50%;
-=======
-    width: 20%;
-     padding: 20px;
-     background-size: cover;
->>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
-}
- 
-.img3{
-    background-image: url(../images/img_3.jpg);
-    display: inline-block;
-<<<<<<< HEAD
-    width: 50%;
-    
-=======
-    width: 20%;
-     padding: 20px;
-     background-size: cover;
->>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
-}
 
-.img4{
-    background-image: url(../images/img_4.jpg);
-    display: inline-block;
-<<<<<<< HEAD
-    width: 50%;
-    
-     
+
+      
+        .img {
+            width: 100%;
+            margin: 5px;
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
 }
 
 .container{
+    display: flex;
     
-    width: 50%;
-    display: inline-block;
-=======
-    width: 20%;
-     padding: 20px;
-     
-     background-size: cover;
->>>>>>> eba38c1a9c4e8bf50b19da109380482990019208
 }
  
 .marshall{
@@ -131,6 +83,8 @@ background-size: cover;
 text-align: center;
 background-color: #364759;
 margin: 0px;
-color: white;
-padding: 10px;
+}
+#collegamento  {
+    color: white;
+    background-color: transparent;
 }

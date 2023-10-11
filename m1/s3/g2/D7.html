@@ -190,8 +190,62 @@
        La tabella avrà 5 elementi e questa struttura: immagine, nome prodotto, quantità, prezzo
     */
 
-      const generateTable = function () {}
+      const generateTable = function () {
 
+let table = document.createElement('table');
+let primaTr = document.createElement('tr');
+
+let campi = ['immagine', 'nome prodotto', 'quantità', 'prezzo'];
+
+for(let campo of campi){
+  let th = document.createElement('th');
+  th.innerText = campo;
+  primaTr.append(th);
+}
+
+// fine creazione intestazione
+
+//inizio creazione corpo tabella
+
+let dati = [
+{
+  immagine: '',
+  nomeProdotto: 'Lorem Ipsum',
+  quantità: 10,
+  prezzo:10,
+}
+{
+  immagine: '',
+  nomeProdotto: 'Lorem Ipsum',
+  quantità: 1,
+  prezzo:185,
+}
+{
+  immagine: '',
+  nomeProdotto: 'Lorem Ipsum',
+  quantità: 11,
+  prezzo:105,
+}
+{
+  immagine: '',
+  nomeProdotto: 'Lorem Ipsum',
+  quantità: 20,
+ prezzo:120,
+}
+{
+  immagine: '',
+  nomeProdotto: 'Lorem Ipsum',
+  quantità: 15,
+  prezzo:4,
+}
+
+
+]
+
+for(let prodotto)
+
+      }
+generateTable()
       /* ESERCIZIO 12
        Crea una funzione che aggiunga una riga alla tabella precedentemente creata e fornisca i dati necessari come parametri
     */
