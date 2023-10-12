@@ -1,0 +1,35 @@
+
+
+#titolo{
+    text-align: center;
+    background-color: green;
+    font-size: 2rem;
+     font-weight: bold;
+     padding: 5vh;
+}
+
+.cartella{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 calc(100% /13);
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+    margin: 150px auto;
+    width: auto;
+    height: auto;
+  
+}
+
+.number{
+    font-size: 2rem;
+    flex: 0 1;
+    padding: 30px;
+   
+    }
+
+    .button{
+        font-size: 1.3rem;
+
+    }
